@@ -6,7 +6,7 @@
 html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; background-color: #fff; color: #8c8c8c; }
 body { font-family: 'Roboto', sans-serif; font-size: 0.8em; }
 h1, h2, h3, h4, h5 { font-weight: normal; border-bottom: 1px solid #c9c9c9; background-color: transparent; margin: 0 0 8px 0; padding: 0; text-transform: uppercase; }
-a { text-decoration: none; color: #e39300; }
+a { text-decoration: none; }
 a.button { padding: 4px 14px; border: 1px solid #8c8c8c; background-color: #c9c9c9; color: #6c6c6c; }
 a > i { margin-right: 4px; }
 input, textarea, select { font-size: 1em; font-family: Roboto, sans-serif; color: #8c8c8c; padding: 4px; border: 1px solid #c9c9c9; }
@@ -15,8 +15,9 @@ input.error { border: 1px solid red; }
 input:focus, textarea:focus { border: 1px solid #e39300; }
 textarea { width: 300px; min-height: 100px; resize: vertical; }
 label { padding: 4px 0; display: table-cell; vertical-align: middle; }
-.logo { width: 100px; height: 100px; }
+.logo { width: 100px; height: 100px; margin: 0 auto; }
 .home .logo { background-image: url(../images/logo_orange.png); background-repeat: no-repeat; }
+.home a { color: #e39300; }
 .float-right { float: right; }
 .float-left { float: left; }
 .content { width: 960px; margin: 0 auto; }
