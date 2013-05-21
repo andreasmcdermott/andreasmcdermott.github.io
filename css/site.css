@@ -49,6 +49,7 @@ label { padding: 4px 0; display: table-cell; vertical-align: middle; }
 .links { font-size: 1.3em; }
 #footer > .links { margin-top: 4px; }
 #top { text-align: center; margin-bottom: 10px; }
+#top  > .links { margin-top: 4px; }
 #footer { text-align: center; margin-top: 20px; padding-top: 4px; border-top: 1px solid #c9c9c9; }
 #lightbox-container { position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.12); }
 #lightbox { position: relative; margin: 120px auto 20px auto; width: 720px; height: auto; min-height: 200px; border: 1px solid #c9c9c9; background-color: #fff; box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.2); }
