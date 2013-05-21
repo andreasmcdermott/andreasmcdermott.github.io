@@ -3,7 +3,7 @@ layout: default
 css: blog
 title: Blog
 ---
-{% if site.posts %}
+{% if site.posts.length > 0 %}
   {% for post in site.posts %}
     <a href="#">{{ post.title }}</a>
   {% endfor %}
