@@ -15,6 +15,8 @@ input.error { border: 1px solid red; }
 input:focus, textarea:focus { border: 1px solid #e39300; }
 textarea { width: 300px; min-height: 100px; resize: vertical; }
 label { padding: 4px 0; display: table-cell; vertical-align: middle; }
+.logo { width: 100px; height: 100px; }
+.home .logo { background-image: url(../images/logo_orange.png); background-repeat: no-repeat; }
 .float-right { float: right; }
 .float-left { float: left; }
 .content { width: 960px; margin: 0 auto; }
