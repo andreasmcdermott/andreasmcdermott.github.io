@@ -1,7 +1,7 @@
 /* 
   Orange: e39300
-  Red: 8c0909
-  Green: 58d736
+  Red: a40c0c
+  Green: 40bc1e
   Blue: 4584f8
   Black: 000000
   Gray: 8c8c8c
@@ -25,9 +25,9 @@ label { padding: 4px 0; display: table-cell; vertical-align: middle; }
 .about .logo { background-image: url(../images/logo_blue.png); }
 .about a { color: #4584f8; }
 .blog .logo { background-image: url(../images/logo_red.png); }
-.blog a { color: #8c0909; }
+.blog a { color: #a40c0c; }
 .photos .logo { background-image: url(../images/logo_green.png); }
-.photos a { color: #58d736; }
+.photos a { color: #40bc1e; }
 .games .logo { background-image: url(../images/logo_black.png); }
 .games a { color: #000000; }
 .float-right { float: right; }
