@@ -1,5 +1,9 @@
 /* 
   Orange: e39300
+  Red: 8c0909
+  Green: 58d736
+  Blue: 4584f8
+  Black: 000000
   Gray: 8c8c8c
 */
 
@@ -15,9 +19,17 @@ input.error { border: 1px solid red; }
 input:focus, textarea:focus { border: 1px solid #e39300; }
 textarea { width: 300px; min-height: 100px; resize: vertical; }
 label { padding: 4px 0; display: table-cell; vertical-align: middle; }
-.logo { width: 100px; height: 100px; margin: 0 auto; }
-.home .logo { background-image: url(../images/logo_orange.png); background-repeat: no-repeat; }
+.logo { width: 100px; height: 100px; margin: 0 auto; background-repeat: no-repeat; }
+.home .logo { background-image: url(../images/logo_orange.png); }
 .home a { color: #e39300; }
+.about .logo { background-image: url(../images/logo_blue.png); }
+.about a { color: #4584f8; }
+.blog .logo { background-image: url(../images/logo_red.png); }
+.blog a { color: #8c0909; }
+.photos .logo { background-image: url(../images/logo_green.png); }
+.photos a { color: #58d736; }
+.games .logo { background-image: url(../images/logo_black.png); }
+.games a { color: #000000; }
 .float-right { float: right; }
 .float-left { float: left; }
 .content { width: 960px; margin: 0 auto; }
