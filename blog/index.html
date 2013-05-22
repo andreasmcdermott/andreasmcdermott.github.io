@@ -3,12 +3,8 @@ layout: default
 css: blog
 title: Blog
 ---
-{% if site.posts.length > 0 %}
-  <ul>
-  {% for post in site.posts %}
-    <li>{{ post.date }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  </ul>
-{% else %}
-  No posts here...
-{% endif %}
+<ul>
+{% for post in site.posts %}
+  <li>{{ post.date }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
