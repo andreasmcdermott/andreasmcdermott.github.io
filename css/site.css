@@ -19,6 +19,8 @@ input.error { border: 1px solid red; }
 input:focus, textarea:focus { border: 1px solid #e39300; }
 textarea { width: 300px; min-height: 100px; resize: vertical; }
 label { padding: 4px 0; display: table-cell; vertical-align: middle; }
+hr { height: 0; border-top: 1px solid #8c8c8c; }
+#disqus-thread { margin-top: 10px; }
 .logo { width: 100px; height: 100px; margin: 0 auto; background-repeat: no-repeat; }
 .home .logo { background-image: url(../images/logo_orange.png); }
 .home a { color: #e39300; }
