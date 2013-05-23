@@ -4,15 +4,18 @@
   categories: [ Website ]
   tags: [ github, jekyll, website ]
 ---
-This is pretty cool indeed! My website is now up and running on GitHub pages. I'm very exiceted about this. 
-My first impressions are that it is very easy to get started with and use. It also has exactly what I need (and nothing I don't need). 
+This is pretty cool indeed! My website is now up and running on GitHub pages.
+My first impressions are that it is very easy to get started with and use. It also has exactly the features I need:
+- Simple editing of posts and pages (html and markdown)
+- Easy administration of website (git and notepad++)
+- Source control (GitHub, obviously)
 
-*AND*(!) it is completely free. Pretty cool indeed.
+*AND* it is completely free. Pretty cool!
 
-Why I'm getting a blog
-----------------------
-So as you might notice this is the first post in my blog. This is because I didn't have a blog previously. 
-I plan on getting my hands dirty with some new techniques and thought that it could be fun and valuable to share my progress and experience (both for others'
-and for my own sake).
+-------------------------------------------
 
-I'll post some more about this in the next entry.
+I will keep working on the site for the next couple of weeks (free time is a shortage these days), 
+making changes to the design, learning more markdown (which I haven't used before), etc.
+
+As soon as the site is done (or close enough) I will start my next learning project which I'm looking forward to.
+So many new techniques and so little time..
