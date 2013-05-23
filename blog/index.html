@@ -4,22 +4,25 @@ css: blog
 title: Blog
 ---
 <h1>Blog</h1>
-<ul>
-{% for post in paginator.posts %}
-  <li>
-    {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a>
-    <a href="{{ post.url }}#disqus_thread" class="pull-right"></a>
-    <p>
-      {{ post.excerpt }}
-    </p>
-    <p>
-      <strong>Category:</strong> {{ post.categories | join: ', ' }}
-      <br />
-      <strong>Tags:</strong> {{ post.tags | join: ', ' }}
-    </p>
-  </li>
-{% endfor %}
-</ul>
+<div id="posts" class="posts">
+  <ul>
+  {% for post in paginator.posts %}
+    <li>
+      {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}#disqus_thread" class="pull-right"></a>
+      <p>
+        {{ post.excerpt }}
+      </p>
+      <p><a href="{{ post.url }}">Read more..</a></p>
+      <p>
+        <strong>Category:</strong> {{ post.categories | join: ', ' }}
+        <br />
+        <strong>Tags:</strong> {{ post.tags | join: ', ' }}
+      </p>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
 
 <div id="post-pagination" class="pagination">
   <ul class="pages">
