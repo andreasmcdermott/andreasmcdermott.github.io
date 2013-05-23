@@ -12,12 +12,12 @@ title: Blog
     <p>
       <strong>Category:</strong> 
       {% for category in post.categories %}
-          {{ category | link_to: '/blog/category#' + category  | join: ', ' }}
+          {{ category | join: ', ' }}
       {% endfor %}
       <br />
       <strong>Tags:</strong> 
       {% for tag in post.tags  %}
-        {{ tag | link_to: '/blog/tag#' + tag  | join: ', ' }}
+        {{ tag | join: ', ' }}
       {% endfor %}
     </p>
   </li>
