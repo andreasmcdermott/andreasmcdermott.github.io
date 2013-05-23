@@ -31,7 +31,24 @@ Disqus has install instructions for many popular blog tools (like Wordpress, Tum
 
 First, get the code that adds the comments to your page:
 
-<script src="https://gist.github.com/andreasmcdermott/5639846.js"></script>
+{% highlight html %}
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'YOUR_SHORTNAME'; // required: replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+{% endhighlight %}
 
 Copy that snippet to your post-layout-file where comments should appear. Don't forget to replace "YOUR_SHORTNAME" with your actual shortname.
 
@@ -43,18 +60,12 @@ But it could also be nice to have the option to turn off comments completley for
 
 Put the following code around the Disqus code in step 2:
 
-<script src="https://gist.github.com/andreasmcdermott/5639837.js"></script>
-
 And then in your post you can add "allow_comments: false" in the front-matter when you want to disable comments for a specific post.
 
 ###Step 4: Get comment count for your post
 The final step is to add a comment count for each post. Disqus will give you that code as well.
 
-<script src="https://gist.github.com/andreasmcdermott/5639818.js"></script>
-
 Add that code to the bottom of your page that will be displaying comment counts. Then, for each post you'll add a link like this: 
-
-<script src="https://gist.github.com/andreasmcdermott/5639828.js"></script>
 
 Disqus will add the comment count for all links with the "#disqus_thread" automatically.
 

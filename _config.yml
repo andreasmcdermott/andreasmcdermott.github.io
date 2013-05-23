@@ -1,4 +1,4 @@
-future: true
+future: false
 lsi: true
 pygments: true
 permalink: pretty
