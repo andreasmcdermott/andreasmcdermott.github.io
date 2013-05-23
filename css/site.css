@@ -73,3 +73,6 @@ label { padding: 4px 0; display: table-cell; vertical-align: middle; }
 #error-display > ul > li { margin: 2px 0; }
 .error { padding: 5px 0; }
 .error > i { color: red; margin-right: 6px; }
+.pagination { text-align: center; }
+.pagination ul { list-style-type: none; }
+.pagination p, .pagination ul { display: inline; }
