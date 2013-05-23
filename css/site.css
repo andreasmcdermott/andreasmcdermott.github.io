@@ -74,5 +74,5 @@ label { padding: 4px 0; display: table-cell; vertical-align: middle; }
 .error { padding: 5px 0; }
 .error > i { color: red; margin-right: 6px; }
 .pagination { text-align: center; }
-.pagination ul { list-style-type: none; }
-.pagination li { display: inline; }
+.pagination ul { list-style-type: none; padding: 0; margin: 0; }
+.pagination li { display: inline; padding: 0; margin: 0; }
