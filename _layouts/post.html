@@ -25,14 +25,16 @@
   </div>
   <div class="span3">
     <div id="sidebar">
-      <p><strong>Posted:</strong> {{ page.date | date_to_string }}</p>
-      <p><strong>Categories:</strong> {{ page.categories | array_to_sentence_string }}</p>
-      <p><strong>Tags:</strong> {{ page.tags | join: ', ' }}</p>
+      <p>POSTED: <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time><br />
+      CATEGORIES: {{ page.categories | array_to_sentence_string }}<br />
+      TAGS: {{ page.tags | join: ', ' }}</p>
       {% if site.related_posts.size > 0 %}
         <h3>Related posts</h3>
         <ul style="list-style-type: none;">
             {% for post in site.related_posts %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% if post.url != page.url %}
+                <li><a href="{{ post.url }}">{{ post.title | truncate: 33 }}</a></li>
+              {% endif %}
             {% endfor %}
         </ul>
       {% endif %}

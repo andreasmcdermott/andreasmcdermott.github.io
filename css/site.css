@@ -23,6 +23,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 #disqus-thread { margin-top: 10px; }
 #sidebar { padding-left: 20px; padding-top: 30px; }
 #sidebar h3 { margin-top: 20px; }
+#sidebar ul { margin: 0; padding: 0; }
 .logo { width: 100px; height: 100px; margin: 0 auto; background-repeat: no-repeat; }
 .home .logo { background-image: url(../images/logo_orange.png); }
 .home a { color: #e39300; }
