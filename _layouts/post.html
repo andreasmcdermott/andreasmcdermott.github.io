@@ -25,9 +25,11 @@
   </div>
   <div class="span3">
     <div id="sidebar">
-      <p>POSTED: <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time><br />
-      CATEGORIES: {{ page.categories | array_to_sentence_string }}<br />
-      TAGS: {{ page.tags | join: ', ' }}</p>
+      <p>
+        <strong>Posted:</strong> <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time><br />
+        <strong>Categories:</strong> {{ page.categories | array_to_sentence_string }}<br />
+        <strong>Tags:</strong> {{ page.tags | join: ', ' }}
+      </p>
       {% if site.related_posts.size > 0 %}
         <h3>Related posts</h3>
         <ul style="list-style-type: none;">

@@ -13,8 +13,8 @@ title: Blog
     </p>
     <p><a href="{{ post.url }}">Read more <i class="icon-arrow-right"></i></a></p>
     <p>
-      CATEGORIES: {{ post.categories | join: ', ' }}<br />
-      TAGS: {{ post.tags | join: ', ' }}
+      <strong>Categories</strong>: {{ post.categories | join: ', ' }}<br />
+      <strong>Tags</strong>: {{ post.tags | join: ', ' }}
     </p>
   {% endfor %}
   </div>
