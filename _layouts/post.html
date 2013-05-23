@@ -3,14 +3,17 @@
   css: blog
 ---
 <h1><a href="/blog"><i class="icon-arrow-left"></i></a>{{ page.title }}</h1>
-<p><strong>Posted at:</strong> {{ page.date | date_to_string }}</p>
+<span>{{ page.date | date_to_string }}</span>
 
 {{ content }}
 
-<p><strong>Categories:</strong> {{ page.categories | array_to_sentence_string }}</p>
-<p><strong>Tags:</strong> {{ page.tags | array_to_sentence_string }}</p>
+<p>
+  <strong>Categories:</strong> {{ page.categories | array_to_sentence_string }}<br />
+  <strong>Tags:</strong> {{ page.tags | array_to_sentence_string }}
+</p>
+
 {% if page.allow_comments != false %}
-<hr />
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'amcd';
@@ -22,5 +25,6 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
 {% endif %}
     
