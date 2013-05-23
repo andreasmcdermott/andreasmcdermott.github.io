@@ -12,7 +12,7 @@ My first impressions are that it is very easy to get started with and use. It al
 
 *AND* it is completely free. Pretty cool!
 
--------------------------------------------
+* * *
 
 I will keep working on the site for the next couple of weeks (free time is a shortage these days), 
 making changes to the design, learning more markdown (which I haven't used before), etc.
