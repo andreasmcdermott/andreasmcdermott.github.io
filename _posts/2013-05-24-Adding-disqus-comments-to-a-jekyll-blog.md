@@ -27,12 +27,11 @@ After setting up your site you are ready to add some code to your page.
 
 Disqus has install instructions for many popular blog tools (like Wordpress, Tumblr, etc), but for Jekyll you should choose "Universal Code".
 
-![Universal Code]({{ site.url }}/assets/disqus_universal.jpg)
+![Universal Code](/assets/disqus_universal.jpg)
 
 First, get the code that adds the comments to your page:
 
 {% highlight javascript linenos %}
-
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -47,7 +46,6 @@ First, get the code that adds the comments to your page:
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
 {% endhighlight %}
 
 Copy that snippet to your post-layout-file where comments should appear. Don't forget to replace "YOUR_SHORTNAME" with your actual shortname.
@@ -65,7 +63,6 @@ And then in your post you can add "allow_comments: false" in the front-matter wh
 The final step is to add a comment count for each post. Disqus will give you that code as well.
 
 {% highlight javascript linenos %}
-
   <script type="text/javascript">
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
   var disqus_shortname = 'YOUR_SHORTNAME'; // required: replace example with your forum shortname
@@ -78,15 +75,12 @@ The final step is to add a comment count for each post. Disqus will give you tha
       (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
   }());
   </script>
-
 {% endhighlight %}
 
 Add that code to the bottom of your page that will be displaying comment counts. Then, for each post you'll add a link like this: 
 
 {% highlight html linenos %}
-
   <a href="{{ post.url }}#disqus_thread"></a>
-  
 {% endhighlight %}
 
 Disqus will add the comment count for all links with the "#disqus_thread" automatically.
