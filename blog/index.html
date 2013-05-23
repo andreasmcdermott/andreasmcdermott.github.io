@@ -27,13 +27,13 @@ title: Blog
   {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
-        <a href="/blog">Previous</a>
+        <a href="/blog"><i class="icon-arrow-left"></i></a>
       {% else %}
-        <a href="/blog{{ paginator.previous_page_path }}">Previous</a>
+        <a href="/blog{{ paginator.previous_page_path }}"><i class="icon-arrow-left"></i></a>
       {% endif %}
     </li>
   {% else %}
-    <li class="previous disabled">Previous</li>
+    <li class="previous disabled"><i class="icon-arrow-left"></i></li>
   {% endif %}
 
   
@@ -58,10 +58,10 @@ title: Blog
 
   {% if paginator.next_page %}
     <li class="next">
-      <a href="/blog{{ paginator.next_page_path }}">Next</a>
+      <a href="/blog{{ paginator.next_page_path }}"><i class="icon-arrow-right"></i></a>
     </li>
   {% else %}
-    <li class="next disabled">Next</li>
+    <li class="next disabled"><i class="icon-arrow-right"></i></li>
   {% endif %}
   
   </ul>
