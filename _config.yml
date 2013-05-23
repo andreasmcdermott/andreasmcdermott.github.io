@@ -1,5 +1,5 @@
 future: false
-lsi: false
+lsi: true
 pygments: true
 permalink: pretty
 paginate: 10
