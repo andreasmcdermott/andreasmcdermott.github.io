@@ -27,8 +27,6 @@ After setting up your site you are ready to add some code to your page.
 
 Disqus has install instructions for many popular blog tools (like Wordpress, Tumblr, etc), but for Jekyll you should choose "Universal Code".
 
-![Universal Code]({{ site.url }}/assets/disqus_universal.jpg)
-
 First, get the code that adds the comments to your page:
 
 {% highlight javascript linenos %}
