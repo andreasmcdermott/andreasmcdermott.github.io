@@ -5,30 +5,21 @@ title: Blog
 ---
 <h1>Blog</h1>
 <ul>
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <li>
     {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a>
-    
-    
+    <a href="{{ post.url }}#disqus_thread" class="pull-right"></a>
+    <p>
+      {{ post.excerpt }}
+    </p>
+    <p>
+      <strong>Category:</strong> {{ post.categories | join: ', ' }}
+      <br />
+      <strong>Tags:</strong> {{ post.tags | join: ', ' }}
+    </p>
   </li>
 {% endfor %}
 </ul>
-
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p>
-    <a href="{{ post.url }}#disqus_thread" class="pull-right"></a>
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <p>
-    <strong>Category:</strong> {{ post.categories | join: ', ' }}
-    <br />
-    <strong>Tags:</strong> {{ post.tags | join: ', ' }}
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
-{% endfor %}
 
 <div id="post-pagination" class="pagination">
   {% if paginator.previous_page %}
@@ -64,7 +55,7 @@ title: Blog
       </li>
     {% endfor %}
   </ul>
-  
+
   {% if paginator.next_page %}
     <p class="next">
       <a href="{{ paginator.next_page_path }}">Next</a>
@@ -74,7 +65,7 @@ title: Blog
       <span>Next</span>
     </p>
   {% endif %}
-  
+
 </div>
 
 <script type="text/javascript">
