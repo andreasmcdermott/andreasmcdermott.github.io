@@ -27,7 +27,7 @@ After setting up your site you are ready to add some code to your page.
 
 Disqus has install instructions for many popular blog tools (like Wordpress, Tumblr, etc), but for Jekyll you should choose "Universal Code".
 
-![Universal Code](http://andreasmcdermott.com/assets/disqus_universal.jpg)
+![Universal Code]({{ site.url }}/assets/disqus_universal.jpg)
 
 First, get the code that adds the comments to your page:
 
@@ -80,7 +80,7 @@ The final step is to add a comment count for each post. Disqus will give you tha
 Add that code to the bottom of your page that will be displaying comment counts. Then, for each post you'll add a link like this: 
 
 {% highlight html linenos %}
-  <a href="{{ post.url }}#disqus_thread"></a>
+  <a href="POST_URL#disqus_thread"></a>
 {% endhighlight %}
 
 Disqus will add the comment count for all links with the "#disqus_thread" automatically.
