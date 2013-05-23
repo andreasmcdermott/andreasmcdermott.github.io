@@ -2,6 +2,7 @@
   title: Adding Disqus comments to a Jekyll blog
   categories: website
   tags: [ jekyll, disqus, website ]
+  published: false
 ---
 Because Jekyll only serves static html-pages I have to use a commenting system that stores all the data for me.
 I only knew of [Disqus][1], so made some research to see what else was out there. 
