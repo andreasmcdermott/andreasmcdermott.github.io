@@ -2,3 +2,4 @@ future: false
 lsi: true
 pygments: true
 permalink: pretty
+paginate: 20
