@@ -12,18 +12,12 @@ title: Blog
     <p>
       <strong>Category:</strong> 
       {% for category in post.categories %}
-        <a href="/blog/category#{{ category }}">{{ category }}</a>
-        {% if !forloop.last %}
-          ,&nbsp;
-        {% endif %}
+          {{ category | link_to: '/blog/category#' + category  | join: ', ' }}
       {% endfor %}
       <br />
       <strong>Tags:</strong> 
       {% for tag in post.tags  %}
-        <a href="/blog/tag#{{ tag }}">{{ tag }}</a>
-        {% if !forloop.last %}
-          ,&nbsp;
-        {% endif %}
+        {{ tag | link_to: '/blog/tag#' + tag  | join: ', ' }}
       {% endfor %}
     </p>
   </li>
