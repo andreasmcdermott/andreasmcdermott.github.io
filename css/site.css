@@ -20,6 +20,7 @@ input:focus, textarea:focus { border: 1px solid #e39300; }
 textarea { width: 300px; min-height: 100px; resize: vertical; }
 label { padding: 4px 0; display: table-cell; vertical-align: middle; }
 hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin: 20px auto; padding: 0; width: 50%; }
+strong { color: black; font-weight: normal; text-transform: uppercase; }
 #disqus-thread { margin-top: 10px; }
 #sidebar { padding-left: 20px; padding-top: 30px; }
 #sidebar h3 { margin-top: 20px; }
