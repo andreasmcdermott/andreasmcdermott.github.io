@@ -58,13 +58,13 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 .span12 { width: 100%; }
 .space-top { margin-top: 4px; }
 .space-bottom { margin-bottom: 4px; }
-.game-item { padding: 4px; }
+/*.game-item { padding: 4px; }
 .game-item > a { color: #8c8c8c !important; }
 .span12 .game-item .img-container { background-color: #ccc; width: 952px; height: 535px; }
 .span6 .game-item .img-container { background-color: #ccc; width: 472px; height: 265px; }
 .span3 .game-item .img-container { background-color: #ccc; width: 232px; height: 232px; }
-.span1-5 .game-item .img-container { background-color: #ccc; width: 112px; height: 112px; }
-.links { font-size: 1.3em; padding: 0 2px; }
+.span1-5 .game-item .img-container { background-color: #ccc; width: 112px; height: 112px; }*/
+.links { font-size: 1.6em; padding: 0 2px; }
 #footer > .links { margin-top: 4px; }
 #top { text-align: center; margin-bottom: 10px; }
 #top  > .links { margin-top: 4px; }
