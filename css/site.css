@@ -8,7 +8,7 @@
 */
 
 html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; background-color: #fff; color: #8c8c8c; }
-body { font-family: 'Roboto', sans-serif; font-size: 0.9em; overflow-y: scroll; }
+body { font-family: Helvetica, 'Roboto', sans-serif; font-size: 0.9em; overflow-y: scroll; }
 h1, h2, h3, h4, h5 { font-weight: normal; border-bottom: 1px solid #c9c9c9; background-color: transparent; margin: 0 0 8px 0; padding: 0; text-transform: uppercase; }
 a { text-decoration: none; }
 a.button { padding: 4px 14px; border: 1px solid #8c8c8c; background-color: #c9c9c9; color: #6c6c6c; }
