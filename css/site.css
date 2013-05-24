@@ -81,4 +81,3 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 .pagination { text-align: center; margin-top: 10px; }
 .pagination ul { list-style-type: none; padding: 0; margin: 0; }
 .pagination li { display: inline; padding: 0 4px; margin: 0; }
-.social-sharing { padding: 20px 0; text-align: right; clear: both; }
