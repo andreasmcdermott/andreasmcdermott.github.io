@@ -5,13 +5,11 @@
 <div class="row">
   <div class="span9">
     <h1><a href="/blog"><i class="icon-arrow-left"></i></a>{{ page.title }}</h1>
-    {{ content }}
+    <article>
+      {{ content }}
+    </article>
 
-    <div class="social-sharing">
-      <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="box_count" data-width="120" data-show-faces="false" data-font="verdana"></div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="andreasmcd84" data-count="vertical">Tweet</a>
-      <div class="g-plusone" data-size="tall" data-href="{{ page.url }}"></div>
-    </div>
+    <div style="width: 100%; height: 30px;">&nbsp;</div>
     
     {% if page.allow_comments != false %}
 
@@ -49,6 +47,14 @@
             {% endfor %}
         </ul>
       {% endif %}
+      <h3>Share</h3>
+      <div>
+        <div class="social-sharing">
+        <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="box_count" data-width="120" data-show-faces="false" data-font="verdana"></div>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="andreasmcd84" data-count="vertical">Tweet</a>
+        <div class="g-plusone" data-size="tall" data-href="{{ page.url }}"></div>
+      </div>
+    </div>
     </div>
   </div>
 </div>
