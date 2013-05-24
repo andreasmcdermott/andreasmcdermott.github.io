@@ -7,7 +7,15 @@
     <h1><a href="/blog"><i class="icon-arrow-left"></i></a>{{ page.title }}</h1>
     {{ content }}
 
-    <div style="width: 100%; height: 30px;">&nbsp;</div>
+    <div class="social-sharing">
+      <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="box_count" data-width="120" data-show-faces="false" data-font="verdana"></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="andreasmcd84" data-count="vertical">Tweet</a>
+      <div class="g-plusone" data-size="tall" data-href="{{ page.url }}"></div>
+      <script type="text/javascript" src="http://www.reddit.com/static/button/button2.js?url={{ page.url }}"></script>
+      <script src="//platform.linkedin.com/in.js" type="text/javascript" data-url="{{ page.url }}">lang: en_US</script>
+      <script type="IN/Share" data-counter="top"></script>
+    </div>
+    
     {% if page.allow_comments != false %}
 
       <div id="disqus_thread"></div>
@@ -44,3 +52,4 @@
     </div>
   </div>
 </div>
+{% include social.ext %}
