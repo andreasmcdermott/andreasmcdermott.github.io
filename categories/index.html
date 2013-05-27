@@ -10,7 +10,7 @@
     <div id="post-container">
       <ul>
       {% for post in site.posts %}
-        <li class="{{ post.categories | join: ' ' }}">
+        <li class="{{ post.categories | join: ' ' }}" style="display: none;">
           <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
@@ -27,6 +27,25 @@
 </div>
 <script type="text/javascript">
   $(function () {
+    var category = 'Website';
     
+    var uniqueCategories = [];
+    $('h1 span').html(category);
+    $('#post-container li').each(function () {
+      if($(this).hasClass(category)) {
+        $(this).show();
+      }
+      
+      var c = $(this).attr('class').split(' ');
+      for(var i = 0; i < c.length; ++c) {
+        if(uniqueCategories[c[i]] !== true) {
+          uniqueCategories[c[i]] = true;
+        }
+      }
+    });
+    
+    $.each(uniqueCategories, function () {
+      $('#sidebar ul').append('<li>' + $(this) + '</li>');
+    });
   });
 </script>
