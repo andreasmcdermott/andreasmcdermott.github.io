@@ -4,8 +4,6 @@
   categories: [project, m1pm],
   tags: [ravendb, mvc, project]
 ---
-New project - M1 project manager
-===========
 I will be starting a new project in the next few days. I've been wanting a project that allows me to learn more about RavenDB.
 I have tried it a little and really enjoy working with it, but would like a more serious project to actually learn the more advanced stuff.
 
