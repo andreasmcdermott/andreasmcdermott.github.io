@@ -1,7 +1,7 @@
 ---
   layout: post
   title: New project - M1 project manager
-  categories: [ Project, M1PM ],
+  categories: [ Project, M1PM ]
   tags: [ ravendb, mvc, project ]
 ---
 
