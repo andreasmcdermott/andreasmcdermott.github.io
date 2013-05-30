@@ -37,7 +37,7 @@ I usually enjoy step-by-step series (like [Rob Ashton's Raven Image Gallery](htt
 Because of this I will try to keep my blog updated regularly so that others might be able to benefit from my experiences.
 
 ##Source
-The source will be available at [my GitHub repository](https://github.com/andreasmcdermott/m1pm)
+The source will be available at [my GitHub repository](https://github.com/andreasmcdermott/m1-project-manager)
 
 ##Demo
 Once I have something to show it will be available at [http://m1pm.apphb.com](http://m1pm.apphb.com).
