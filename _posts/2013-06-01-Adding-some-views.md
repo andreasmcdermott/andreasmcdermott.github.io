@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Adding first controllers, views and some AngularJs
+  title: Adding views with AngularJs
   categories: [ project, m1pm ]
   tags: [ m1, angularjs ]
 ---
@@ -17,7 +17,3 @@ The dashboard module will then handle the routing, load the patial view into the
 
 
 Finally the partial view just prints the "param" value onto the page.
-
-See source code at [my Github page](http://github.com/andreasmcdermott).
-
-
