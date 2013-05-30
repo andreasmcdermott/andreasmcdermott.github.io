@@ -19,7 +19,7 @@ I choose the RavenDB Client version. When hosting on a shared hosting environmen
 on AppHarbor with the database on CloudBird I choose the Client version instead. I will get back to the code to setup RavenDB in a future post.
 
 ##AngularJs
-I decide to add AngularJs via Google's CDN.
+I decide to add AngularJs using Google's CDN.
 
 ##Initial layout file
  My layout file now looks like this:
