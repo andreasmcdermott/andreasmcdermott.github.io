@@ -12,7 +12,7 @@ The first thing I did was create a new MVC 4 project and choose the Web Api temp
 Visual Studio adds a lot of stuff I don't want, so I remove all of that through the NuGet manager (like Entity Framework, knockoutjs, etc).
 I also remove the created controllers, views, the css, images, and anything else I don't want.
 The resulting structure looks like this:
-![Initial structure](/images/m1pm-initial-structure.jpg)
+![Initial structure](http://andreasmcdermott.com/images/m1pm-initial-structure.JPG)
 
 ##RavenDB
 First thing I do once the project is cleaned up is add RavenDB from NuGet. 
