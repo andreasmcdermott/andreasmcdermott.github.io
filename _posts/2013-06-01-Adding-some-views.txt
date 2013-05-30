@@ -1,0 +1,64 @@
+---
+  title: Adding first controllers, views and some AngularJs
+  categories: [ project, m1pm ]
+  tags: [ m1, angularjs ]
+---
+It is now time to add some views to the application. My plan is to structure my application so that each 
+main section of the application (eg Projects, Dashboard, etc) will have its own controller and a main view. 
+I will then use AngularJs to navigate within the page (eg Projects/Add, Projects/Edit/, etc) using partial views to load the appropriate page content.
+
+A typical controller currently looks like this:
+
+{% highlight C# linenos %}
+  public class DashboardController : Controller
+  {
+    public ActionResult Index()
+    {
+      return View();
+    }
+
+    public PartialViewResult Overview()
+    {
+      return PartialView();
+    }
+  }
+{% endhighlight %}
+
+The index page will then look like this:
+
+{% highlight html linenos %}
+  @{
+    ViewBag.Title = "Dashboard";
+  }
+
+  <div ng-app="m1pm-dashboard">
+    <h2>Dashboard</h2>
+    <div ng-view></div>
+  </div>
+
+  @section scripts {
+    <script src="@Url.Content("~/Scripts/DashboardCtrl.js")"></script>
+  }
+{% endhighlight %}
+
+The "ng-app" attribute tell AngularJs of the scope and will also load the "m1pm-dashboard" module in the modules.js file that I've created. 
+The dashboard module will then handle the routing, load the patial view into the div marked with "ng-view", etc.
+
+{% highlight javascript linenos %}
+  // From modules.js
+  var dashboardModule = angular.module('m1pm-dashboard', []).
+  config(['$routeProvider', function ($routeProvider) {
+    $routeProvider.
+      when('/', { templateUrl: '/Dashboard/Overview', controller: 'OverviewCtrl' }).
+      otherwise({ redirectTo: '/' });
+  }]);
+
+  // From DashboardCtrl.js
+  dashboardModule.controller('OverviewCtrl', function ($scope) {
+  $scope.param = "Hello World!";
+});
+{% endhighlight %}
+
+Finally the partial view just prints the "param" value onto the page like so: {{ param }}.
+
+
