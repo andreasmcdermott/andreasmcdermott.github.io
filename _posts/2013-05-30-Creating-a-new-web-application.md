@@ -23,22 +23,7 @@ I decide to add AngularJs using Google's CDN.
 
 ##Initial layout file
  My layout file now looks like this:
-{% highlight html linenos %}
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>M1 Project Manager | @ViewBag.Title</title>
-    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Content/Site.css")" />
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
-  </head>
-  <body>
-    @RenderBody()
-    @RenderSection("scripts", required: false)
-  </body>
-  </html>
-{% endhighlight %}
+
 
 ##Result: A project to build upon
 I now have a project I can continue to build upon. Next step will be to add some basic controllers and views as well as add a bit of AngularJs code.
