@@ -1,6 +1,6 @@
 ---
   layout: post
   title: Creating a new web application
-  categories: [ project, m1pm ]
+  categories: [ Project, M1PM ]
   tags: [ setup, angularjs, ravendb ]
 ---
