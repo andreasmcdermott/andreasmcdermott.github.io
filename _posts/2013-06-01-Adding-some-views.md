@@ -1,4 +1,5 @@
 ---
+  layout: post
   title: Adding first controllers, views and some AngularJs
   categories: [ project, m1pm ]
   tags: [ m1, angularjs ]
