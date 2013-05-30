@@ -3,6 +3,7 @@
   title: Adding views with AngularJs
   categories: [ project, m1pm ]
   tags: [ m1, angularjs ]
+  published: false
 ---
 It is now time to add some views to the application. My plan is to structure my application so that each 
 main section of the application (eg Projects, Dashboard, etc) will have its own controller and a main view. 

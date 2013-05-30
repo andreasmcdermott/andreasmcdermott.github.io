@@ -3,6 +3,7 @@
   title: Creating a new web application
   categories: [ project, m1pm ]
   tags: [ setup, angularjs, ravendb ]
+  published: false
 ---
 It's time to slowly get started with my new project! I've decided to create a .Net MVC 4 web application that uses the Web Api to
 talk to the server and AngularJs to handle the UI. RavenDB will be used as the database.
