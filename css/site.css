@@ -9,7 +9,7 @@ h1 a, strong { color: #333; }
 h1 { font-size: 1.8em; }
 a, h1 a i { text-decoration: none; color: #e39300; }
 a.button { padding: 4px 14px; border: 1px solid #8c8c8c; background-color: #c9c9c9; color: #6c6c6c; }
-a > i { margin-right: 4px; }
+a > i, #sidebar i { margin-right: 4px; }
 input, textarea, select { font-size: 1em; color: #6c6c6c; padding: 4px; border: 1px solid #c9c9c9; }
 input[type="text"] { width: 300px; }
 input.error { border: 1px solid red; }
