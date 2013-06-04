@@ -45,8 +45,10 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 .span11 { width: 91.66666666667%; }
 .span12 { width: 100%; }
 .game { padding: 6px; }
+.game .information-container { margin-top: 10px; }
 .game .information { display: none; }
-.game .downloads ul { list-style-type: none; }
+.game .downloads ul { list-style-type: none; padding: 0; margin: 0; }
+.game .downloads li { margin: 0; padding: 4px 0; }
 .game img { width: 100%; }
 .space-top { margin-top: 4px; }
 .space-bottom { margin-bottom: 4px; }

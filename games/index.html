@@ -8,9 +8,7 @@ title: Games
 			<h1><a href="cyan.html">Cyan</a></h1>
 			<img src="http://www.andreasmcdermott.com/assets/cyan.png" alt="Cyan Screenshot" />
       <div class="information-container">
-        <div class="display-toggle">
-          <a href="#"><i class="icon-zoom"></i> Show information</a>
-        </div>
+        <h3><a href="#" class="display-toggle" title="Show"><i class="icon-plus"></i> Information</a></h3>
         <div class="information">
           <p>
             This game was developed during 48 hours for the 26th Ludum Dare game competition.
@@ -49,9 +47,7 @@ title: Games
 			<h1><a href="tinyworld.html">Tiny World</a></h1>
 			<img src="http://www.andreasmcdermott.com/assets/tinyworld.jpg" alt="Tiny World Screenshot" />
       <div class="information-container">
-        <div class="display-toggle">
-          <a href="#"><i class="icon-zoom"></i> Show information</a>
-        </div>
+        <h3><a href="#" class="display-toggle" title="Show"><i class="icon-plus"></i> Information</a></h3>
         <div class="information">
           <p>
             This game was developed during 48 hours for the 23rd Ludum Dare game competition.
@@ -83,6 +79,7 @@ title: Games
             </ul>
           </p>
         </div>
+        <hr />
       </div>
       <div class="downloads">
       	<ul>
@@ -96,13 +93,17 @@ title: Games
 </div>
 <script type="text/javascript">
   $(function () {
-    $('.information-container .display-toggle a').click(function () {
+    $('.information-container .display-toggle').click(function () {
       var element = $(this).closest('.information-container').children('.information');
       if($(element).is(':visible')) {
         $(element).hide();
+        $(this).children('i').removeClass('icon-minus').addClass('icon-plus');
+        $(this).attr('title', 'Show');
       }
       else {
         $(element).show();
+        $(this).children('i').addClass('icon-minus').removeClass('icon-plus');
+        $(this).attr('title', 'Hide');
       }
       
       return false;
