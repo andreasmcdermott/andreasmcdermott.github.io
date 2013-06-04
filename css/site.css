@@ -6,11 +6,11 @@
 html, body { width: 100%; min-height: 100%; margin: 0; padding: 0; background-color: #fff; color: #6c6c6c; }
 body { font-family: Helvetica, sans-serif; font-size: 0.9em; overflow-y: scroll; }
 h1, h2, h3, h4, h5 { color: #333; border-bottom: 1px solid #c9c9c9; background-color: transparent; margin: 0 0 8px 0; padding: 0; }
-h1 a, strong { color: #333; }
+h1 a, h3 a, strong { color: #333; }
 h1 { font-size: 1.8em; }
-a, h1 a i { text-decoration: none; color: #4272cb; }
+a { text-decoration: none; color: #4272cb; }
 a.button { padding: 4px 14px; border: 1px solid #8c8c8c; background-color: #c9c9c9; color: #6c6c6c; }
-a > i{ margin-right: 4px; }
+a > i { margin-right: 4px; }
 .links { font-size: 1.6em; padding: 0 2px; margin-top: 4px; }
 .links a, a i { color: #e39300; }
 #sidebar i { margin-right: 4px; color: #333; }
