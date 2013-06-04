@@ -44,6 +44,10 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 .span10 { width: 83.33333333333%; }
 .span11 { width: 91.66666666667%; }
 .span12 { width: 100%; }
+.game { padding: 6px; }
+.game .description { display: none; }
+.game .downloads ul { list-style-type: none; }
+.game img { width: 100%; }
 .space-top { margin-top: 4px; }
 .space-bottom { margin-bottom: 4px; }
 .links { font-size: 1.6em; padding: 0 2px; margin-top: 4px; }
