@@ -13,7 +13,7 @@ Visual Studio adds a lot of stuff I don't want, so I remove all of that through 
 I also remove the created controllers, views, the css, images, and anything else I don't want.
 The resulting structure looks like this:
 
-![Initial structure](http://andreasmcdermott.com/images/m1pm-initial-structure.JPG)
+![Initial structure](http://andreasmcdermott.com/assets/m1pm-initial-structure.JPG)
 
 ##RavenDB
 First thing I do once the project is cleaned up is add RavenDB from NuGet. 
