@@ -11,6 +11,8 @@ h1 { font-size: 1.8em; }
 a, h1 a i { text-decoration: none; color: #4272cb; }
 a.button { padding: 4px 14px; border: 1px solid #8c8c8c; background-color: #c9c9c9; color: #6c6c6c; }
 a > i{ margin-right: 4px; }
+.links { font-size: 1.6em; padding: 0 2px; margin-top: 4px; }
+.links a, a i { color: #e39300; }
 #sidebar i { margin-right: 4px; color: #333; }
 #sidebar li { padding: 4px 0; }
 input, textarea, select { font-size: 1em; color: #6c6c6c; padding: 4px; border: 1px solid #c9c9c9; }
@@ -52,8 +54,6 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 .game img { width: 100%; }
 .space-top { margin-top: 4px; }
 .space-bottom { margin-bottom: 4px; }
-.links { font-size: 1.6em; padding: 0 2px; margin-top: 4px; }
-.links a { color: #e39300; }
 #top { text-align: center; margin-bottom: 10px; }
 #footer { text-align: center; margin-top: 10px; padding-top: 4px; padding-bottom: 20px; border-top: 1px solid #c9c9c9; }
 #lightbox-container { position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; z-index: 1000; background-color: rgba(0, 0, 0, 0.12); }
