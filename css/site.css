@@ -45,7 +45,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px dotted #ccc; margin
 .span11 { width: 91.66666666667%; }
 .span12 { width: 100%; }
 .game { padding: 6px; }
-.game .description { display: none; }
+.game .information { display: none; }
 .game .downloads ul { list-style-type: none; }
 .game img { width: 100%; }
 .space-top { margin-top: 4px; }
