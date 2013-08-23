@@ -13,7 +13,7 @@ a.button { padding: 4px 14px; border: 1px solid #8c8c8c; background-color: #c9c9
 a > i { margin-right: 4px; }
 .links { font-size: 1.6em; padding: 0 2px; margin-top: 4px; }
 .links a, a i { color: #e39300; }
-#top a { color: #003EE3; }
+#top a i { color: #003EE3; }
 #sidebar i { margin-right: 4px; color: #333; }
 #sidebar li { padding: 4px 0; }
 input, textarea, select { font-size: 1em; color: #6c6c6c; padding: 4px; border: 1px solid #c9c9c9; }
