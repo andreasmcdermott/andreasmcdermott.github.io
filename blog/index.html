@@ -5,7 +5,7 @@ title: Blog
 <div id="post-container">
   <div class="post">
   {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}"><i class="icon-bookmark"></i>{{ post.title }}</a></h1>
+    <h1><a href="{{ post.url }}"><i class="icon-arrow-right"></i>{{ post.title }}</a></h1>
     <span><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time><a href="{{ post.url }}#disqus_thread" class="pull-right"></a></span>
     <p>
       {{ post.excerpt }}
