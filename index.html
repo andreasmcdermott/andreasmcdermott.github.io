@@ -1,11 +1,32 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
-<h1>Welcome!</h1>
-<p>
-  This is my personal website where you will be able to find photos I have taken, games I have made, and projects I'm working on.
-</p>
-<p>
-  At the moment it might be a bit empty here, but I will try to get everything up and running as soon as possible!
-</p>
+<div id="post-container">
+  <div class="post">
+  {% for post in paginator.posts %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <span><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time><a href="{{ post.url }}#disqus_thread" class="pull-right"></a></span>
+    <p>
+      {{ post.excerpt }}
+    </p>
+    <p><a href="{{ post.url }}">Read more <i class="icon-arrow-right"></i></a></p>
+    <p>
+      <strong>Categories</strong>: {{ post.categories | join: ', ' }}<br />
+      <strong>Tags</strong>: {{ post.tags | join: ', ' }}
+    </p>
+  {% endfor %}
+  </div>
+</div>
+
+{% include paginator.ext %}
+
+<script type="text/javascript">
+  var disqus_shortname = 'amcd';
+  (function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
