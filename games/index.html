@@ -1,0 +1,127 @@
+---
+layout: default
+title: Games
+---
+<div class="row">
+  <div class="span6">
+		<div class="game">
+			<h1><a href="cyan.html">Cyan</a></h1>
+			<img src="http://www.andreasmcdermott.com/assets/cyan.png" alt="Cyan Screenshot" />
+      <div class="information-container">
+        <h3><a href="#" class="display-toggle" title="Show"><i class="icon-plus"></i> Information</a></h3>
+        <div class="information">
+          <p>
+            This game was developed during 48 hours for the 26th Ludum Dare game competition.
+            It is a platformer where the player has to get through five levels filled with obstacles like 
+            lasers, mines and evil robots. The player is equipped with a jetpack and a laser gun.
+          </p>
+          <p>
+            I'm overall happy with my entry. This was my first try at making a game
+            in GameMaker (which is part of the reason why I choose something safe, like a platformer) and I'm impressed
+            at the speed it allowed me to get from nothing to the final version of the game. 
+          </p>
+          <p>
+            All code and content is created by me using the following:
+            <ul>
+              <li>Engine: <a href="http://www.yoyogames.com/">GameMaker:Studio</a></li>
+              <li>Code: GML</li>
+              <li>Graphics: <a href="http://www.gimp.org/">Gimp</a></li>
+              <li>Sound FX: <a href="http://www.bfxr.net/">Bfxr</a></li>
+              <li>Music: <a href="http://www.paulhousemanmusic.com/">Paul Houseman</a></li>
+            </ul>
+          </p>
+          <hr />
+        </div>
+      </div>
+      <div class="downloads">
+      	<ul>
+      		<li><a href="http://www.andreasmcdermott.com/assets/cyan.zip" title="Play on Windows"><i class="icon-download"></i> Download game (Windows)</a></li>
+        	<li><a href="https://github.com/andreasmcdermott/cyan" class="Source"><i class="icon-github"></i> Source</a></li>
+        	<li><a href="http://www.ludumdare.com/compo/ludum-dare-26/?action=preview&uid=11705"><i class="icon-arrow-right"></i> Goto Ludum Dare entry page</a></li>
+      	</ul>
+      </div>
+		</div>
+	</div>
+	<div class="span6">
+		<div class="game">
+			<h1><a href="tinyworld.html">Tiny World</a></h1>
+			<img src="http://www.andreasmcdermott.com/assets/tinyworld.jpg" alt="Tiny World Screenshot" />
+      <div class="information-container">
+        <h3><a href="#" class="display-toggle" title="Show"><i class="icon-plus"></i> Information</a></h3>
+        <div class="information">
+          <p>
+            This game was developed during 48 hours for the 23rd Ludum Dare game competition.
+            It is a shooter where the player has to switch between controlling a 
+            tower and a hot air balloon to protect the tiny city being pulled by the turtle.
+          </p>
+          <p>
+            This was my first entry in Ludum Dare since my university days and I'm overall happy with my entry. 
+            It was my first time using Lua and Löve2D and I really enjoyed working with both the engine and the language.
+            I also chose to use a component based game design instead of the more traditional structure using inheritance. 
+            This means that instead of creating game objects as hierarchical structures like:<br />
+            "Entity -> Enemy -> Zombie" (where the arrows symbolize inheritance) the game objects are composed of smaller
+            components that together define the final entity. Examples of components that I used in the game are:
+            <ul>
+              <li>Draw: An entity with this component will be drawn every frame.</li>
+              <li>Sound: An entity with this component will play a sound.</li>
+              <li>Position: An entity with this component will have a position on the screen.</li>
+              <li>Move: An entity with this component will move according to a specified vector every frame.</li>
+            </ul>
+            I was very happy with the ease I was able to add new types of game objects by combining existing components.
+          </p>
+          <p>
+            All code and content is created by me using the following:
+            <ul>
+              <li>Engine: <a href="https://love2d.org/">Löve2D</a></li>
+              <li>Code: Lua, written in <a href="http://www.sublimetext.com/2">Sublime Text 2</a></li>
+              <li>Graphics: <a href="http://www.pickleeditor.com/">Pickle</a></li>
+              <li>Sound FX: <a href="http://www.bfxr.net/">Bfxr</a></li>
+            </ul>
+          </p>
+          <hr />
+        </div>
+      </div>
+      <div class="downloads">
+      	<ul>
+      		<li><a href="http://www.andreasmcdermott.com/assets/tinyworld.zip" title="Play on Windows"><i class="icon-download"></i> Download game (Windows)</a></li>
+        	<li><a href="https://github.com/andreasmcdermott/tiny-world" title="Source"><i class="icon-github"></i> Source</a></li>
+        	<li><a href="http://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=11705"><i class="icon-arrow-right"></i> Goto Ludum Dare entry page</a></li>
+      	</ul>
+      </div>
+		</div>
+	</div>
+</div>
+<div class="row" style="padding-top: 20px; margin-top: 20px; border-top: 1px solid #c9c9c9;">
+  <div class="span12">
+    <div id="disqus_thread" name="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'amcd';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</div>
+<script type="text/javascript">
+  $(function () {
+    $('.information-container .display-toggle').click(function () {
+      var element = $(this).closest('.information-container').children('.information');
+      if($(element).is(':visible')) {
+        $(element).hide();
+        $(this).children('i').removeClass('icon-minus').addClass('icon-plus');
+        $(this).attr('title', 'Show');
+      }
+      else {
+        $(element).show();
+        $(this).children('i').addClass('icon-minus').removeClass('icon-plus');
+        $(this).attr('title', 'Hide');
+      }
+      
+      return false;
+    });
+  });
+</script>
