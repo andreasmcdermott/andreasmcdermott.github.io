@@ -74,18 +74,18 @@ textarea { border: 1px dotted #f5f5f5; text-align: left; font-family: 'Open Sans
 .space-left { margin-left: 1em; }
 .arrow { width: 0; height: 0; }
 .row { width: 100%; }
-[class*="span"] { float: left; }
-.span1 { width: 1/12 * 100%; }
-.span2 { width: 2/12 * 100%; }
-.span3 { width: 3/12 * 100%; }
-.span4 { width: 4/12 * 100%; }
-.span5 { width: 5/12 * 100%; }
-.span6 { width: 6/12 * 100%; }
-.span7 { width: 7/12 * 100%; }
-.span8 { width: 8/12 * 100%; }
-.span9 { width: 9/12 * 100%; }
-.span10 { width: 10/12 * 100%; }
-.span11 { width: 11/12 * 100%; }
+div[class*="span"] { float: left; }
+.span1 { width: 8.33%; }
+.span2 { width: 16.67%; }
+.span3 { width: 25%; }
+.span4 { width: 33.33%; }
+.span5 { width: 41.67%; }
+.span6 { width: 50%; }
+.span7 { width: 58.33%; }
+.span8 { width: 66.66%; }
+.span9 { width: 75%; }
+.span10 { width: 83.33%; }
+.span11 { width: 91.67%; }
 .span12 { width: 100%; }
 .clear:before, .clear:after, .row:before, .row:after { content: " "; display: table; }
 .clear:after, .row:after { clear: both; }

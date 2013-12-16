@@ -45,10 +45,10 @@
   <script type="text/javascript">
     $(function () {
       $('a.current').removeClass('current');
-      if($('post-container').length > 0) {
+      if($('#post-container').length > 0) {
         $('a[href="/"]').addClass('current');
       }
-      else if($('game-container').length > 0) {
+      else if($('#game-container').length > 0) {
         $('a[href="/games"]').addClass('current');
       }
     });
