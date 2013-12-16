@@ -8,11 +8,11 @@ title: Blog
     <h2><a href="{{ post.url }}"><i class="icon-arrow-right"></i>{{ post.title }}</a></h2>
     
     <div class="row">
-      <div class="span8">
+      <div class="span10">
         <p>{{ post.excerpt }}</p>
         <p><a href="{{ post.url }}">Read more <i class="fa fa-arrow-right"></i></a></p>
       </div>
-      <div class="span4">
+      <div class="span2">
         <ul class="tags">
           <li><i class="fa fa-clock-o"></i><time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></li>
           <li><i class="fa fa-comment"></i><a href="{{ post.url }}#disqus_thread"></a></li>
