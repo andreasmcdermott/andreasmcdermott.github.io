@@ -2,7 +2,7 @@
   layout: post
   title: Switching to GitHub pages
   categories: [ Website ]
-  tags: [ github, jekyll, website ]
+  tags: [ github, jekyll ]
 ---
 This is pretty cool indeed! My website is now up and running on GitHub pages.
 My first impressions are that it is very easy to get started with and use. It also has exactly the features I need:
