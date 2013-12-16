@@ -4,9 +4,9 @@
   {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
-        <a href="/blog"><i class="icon-arrow-left"></i></a>
+        <a href="/"><i class="icon-arrow-left"></i></a>
       {% else %}
-        <a href="/blog{{ paginator.previous_page_path }}"><i class="icon-arrow-left"></i></a>
+        <a href="/{{ paginator.previous_page_path }}"><i class="icon-arrow-left"></i></a>
       {% endif %}
     </li>
   {% else %}
@@ -17,7 +17,7 @@
     {% if paginator.page == 1 %}
       <span class="current-page">1</span>
     {% else %}
-      <a href="/blog">1</a>
+      <a href="/">1</a>
     {% endif %}
   </li>
 
@@ -26,7 +26,7 @@
         {% if count == paginator.page %}
           <span class="current-page">{{ count }}</span>
         {% else %}
-          <a href="/blog/page{{ count }}">{{ count }}</a>
+          <a href="/page{{ count }}">{{ count }}</a>
         {% endif %}
       </li>
     {% endfor %}
@@ -34,7 +34,7 @@
 
   {% if paginator.next_page %}
     <li class="next">
-      <a href="/blog{{ paginator.next_page_path }}"><i class="icon-arrow-right"></i></a>
+      <a href="/{{ paginator.next_page_path }}"><i class="icon-arrow-right"></i></a>
     </li>
   {% else %}
     <li class="next disabled"><i class="icon-arrow-right"></i></li>
