@@ -27,7 +27,7 @@
       <ul class="tags">
         <li><i class="fa fa-clock-o"></i><time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time></li>
         <li><i class="fa fa-comment"></i><a href="#disqus_thread"></a></li>
-        <li><i class="fa fa-folder"></i>page.categories | array_to_sentence_string }}</li>
+        <li><i class="fa fa-folder"></i>{{ page.categories | array_to_sentence_string }}</li>
         <li><i class="fa fa-comment"></i>{{ page.tags | join: ', ' }}</li>
       </ul>
       <h3>Share</h3>
