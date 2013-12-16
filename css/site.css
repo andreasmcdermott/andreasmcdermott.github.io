@@ -24,7 +24,7 @@ ul li { padding: 0.1em 0; }
 nav ul { list-style-type: none; padding: 0; margin: 0; }
 nav li { display: inline; padding: 0; margin: 0; }
 nav a { display: inline-block; padding: 0 0.2em; }
-header nav  a { font-family: 'Montserrat', Arial, sans-serif; font-size: 2em; text-transform: uppercase; color: #595959; background-color: #D6799D; 
+header nav a { font-family: 'Montserrat', Arial, sans-serif; font-size: 2em; text-transform: uppercase; color: #595959; background-color: #D6799D; 
   padding: 1.6em 0.8em 1em 0.8em; text-align: center; display: inline-block; text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
 header nav a:not(.current):hover { background-color: #DC8DAC; padding-bottom: 1.2em; color: #595959; }
 header nav a.current { padding: 1.6em 1em; background-color: #D06590; color: #595959; }
@@ -42,6 +42,7 @@ input[type="submit"]:hover { background-color: #DC8DAC; }
 input[type="submit"]:active { background-color: #D06590; }
 textarea { border: 1px dotted #f5f5f5; text-align: left; font-family: 'Open Sans', Arial, sans-serif; resize: vertical; padding: 1%; margin: 0 4%; 
   min-height: 8em; overflow: auto; }
+.pagination {}  
 #main { margin-top: 2em; margin-bottom: 1em; }
 #disqus_thread { background-color: #474747; padding: 2em; margin-top: 2em; }
 .field_with_errors input { border-color: #F15D65; }
