@@ -2,24 +2,26 @@
   layout: default
 ---
 <div id="post-container" class="row">
-  <h2><a href="/"><i class="fa fa-chevron-left"></i></a>{{ page.title }}</h2>
+  <h2>{{ page.title }}</h2>
   <div class="span10">
-    <article>
-      {{ content }}
-    </article>
-    {% if page.allow_comments != false %}
-      <div id="disqus_thread" name="disqus_thread"></div>
-      <script type="text/javascript">
-          var disqus_shortname = 'amcd';
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    {% endif %}
+    <div class="pad-right">
+      <article>
+        {{ content }}
+      </article>
+      {% if page.allow_comments != false %}
+        <div id="disqus_thread" name="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'amcd';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      {% endif %}
+    </div>
   </div>
   <div class="span2">
     <div id="sidebar">
