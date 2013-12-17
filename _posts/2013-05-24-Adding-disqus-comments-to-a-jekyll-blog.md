@@ -59,7 +59,7 @@ And then in your post you can add "allow_comments: false" in the front-matter wh
 #### Step 4: Get comment count for your post
 The final step is to add a comment count for each post. Disqus will give you that code as well.
 
-{% highlight javascript linenos %}
+{% highlight html linenos %}
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'YOUR_SHORTNAME'; // required: replace example with your forum shortname
