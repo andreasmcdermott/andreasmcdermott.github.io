@@ -6,8 +6,8 @@
 ---
 Because Jekyll only serves static html-pages I have to use a commenting system that stores all the data for me.
 I only knew of [Disqus][1], so made some research to see what else was out there. 
-I found a good article comparing the top three Google results when searching for "comments system":
 
+I found a good article comparing the top three Google results when searching for "comments system":
 * [Disqus][1]
 * [LiveFyre][2]
 * [IntenseDebate][3]
