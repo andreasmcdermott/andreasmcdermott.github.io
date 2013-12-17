@@ -3,6 +3,7 @@
 ---
 <div id="post-container" class="row">
   <h2>{{ page.title }}</h2>
+  <a href="/">Go back</a>
   <div class="span10">
     <div class="pad-right">
       <article>
@@ -31,7 +32,7 @@
         <li><i class="fa fa-folder"></i>{{ page.categories | array_to_sentence_string }}</li>
         <li><i class="fa fa-comment"></i>{{ page.tags | join: ', ' }}</li>
       </ul>
-      <h3>Share</h3>
+      <h3 class="space-top">Share</h3>
       <div>
         <ul class="social-sharing">
           <li><div class="fb-like" data-href="http://www.andreasmcdermott.com{{ page.url }}" data-width="120" data-layout="box_count" data-show-faces="false" data-send="false"></div></li>
