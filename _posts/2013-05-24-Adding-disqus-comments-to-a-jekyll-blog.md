@@ -28,7 +28,7 @@ Disqus has install instructions for many popular blog tools (like Wordpress, Tum
 
 First, get the code that adds the comments to your page:
 
-{% highlight javascript linenos %}
+{% highlight html linenos %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
