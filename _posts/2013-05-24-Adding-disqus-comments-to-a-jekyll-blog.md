@@ -61,16 +61,16 @@ The final step is to add a comment count for each post. Disqus will give you tha
 
 {% highlight javascript linenos %}
   <script type="text/javascript">
-  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = 'YOUR_SHORTNAME'; // required: replace example with your forum shortname
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'YOUR_SHORTNAME'; // required: replace example with your forum shortname
 
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function () {
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
       var s = document.createElement('script'); s.async = true;
       s.type = 'text/javascript';
       s.src = '//' + disqus_shortname + '.disqus.com/count.js';
       (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-  }());
+    }());
   </script>
 {% endhighlight %}
 

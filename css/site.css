@@ -11,7 +11,7 @@ h2 i { margin-left: 0.1em; }
 h3 { font-size: 1.4em; border-bottom-style: none; margin: 0; padding-top: 0.4em; }
 h3:first-letter, .capital { font-size: 1.2em; }
 h3 a { font-family: 'Oswald', Arial, sans-serif; }
-h4 { font-size: 1.1em; border-botom-style: none; padding-top: 1em;}
+h4 { font-size: 1.1em; border-bottom-style: none; padding-top: 1em;}
 a, 
 nav a,
 header nav  a { text-decoration: none; color: #D6799D; font-family: 'Open Sans', Arial, sans-serif; }
