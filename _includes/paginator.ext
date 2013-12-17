@@ -4,13 +4,13 @@
   {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
-        <a href="/"><i class="fa fa-arrow-left"></i></a>
+        <a href="/"><i class="fa fa-chevron-left"></i></a>
       {% else %}
-        <a href="/{{ paginator.previous_page_path }}"><i class="fa fa-arrow-left"></i></a>
+        <a href="/{{ paginator.previous_page_path }}"><i class="fa fa-chevron-left"></i></a>
       {% endif %}
     </li>
   {% else %}
-    <li class="previous disabled"><i class="fa fa-arrow-left"></i></li>
+    <li class="previous disabled"><i class="fa fa-chevron-left"></i></li>
   {% endif %}
 
   <li class="page">
@@ -34,10 +34,10 @@
 
   {% if paginator.next_page %}
     <li class="next">
-      <a href="/{{ paginator.next_page_path }}"><i class="fa fa-arrow-right"></i></a>
+      <a href="/{{ paginator.next_page_path }}"><i class="fa fa-chevron-right"></i></a>
     </li>
   {% else %}
-    <li class="next disabled"><i class="fa fa-arrow-right"></i></li>
+    <li class="next disabled"><i class="fa fa-chevron-right"></i></li>
   {% endif %}
   
   </ul>
