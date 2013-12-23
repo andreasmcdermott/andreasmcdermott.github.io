@@ -26,7 +26,9 @@
         <a href="/">Go back</a>
         <ul class="tags space-bottom space-top">
           <li><i class="fa fa-comment"></i><a href="#disqus_thread"></a></li>
-          <li><i class="fa fa-github"></i><a href="{{ page.source }}">Source</a></li>
+          <li><i class="fa fa-tag"></i>{{ page.tags | join: ', ' }}</li>
+          <li><i class="fa fa-gamepad"></i><a href="{{ page.play }}">Play it</a></li>
+          <li><i class="fa fa-github"></i><a href="{{ page.source }}">Get the source</a></li>
         </ul>
         <h3>Share</h3>
         <div>
