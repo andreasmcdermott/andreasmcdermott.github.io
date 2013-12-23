@@ -29,6 +29,9 @@
           <li><i class="fa fa-tag"></i>{{ page.tags | join: ', ' }}</li>
           <li><i class="fa fa-gamepad"></i><a href="{{ page.play }}">Play it</a></li>
           <li><i class="fa fa-github"></i><a href="{{ page.source }}">Get the source</a></li>
+          {{ if page.ludumdare != null }}
+            <li><i class="fa fa-twitter"></i>LudumDare</li>
+          {{ endif }}
         </ul>
         <h3>Share</h3>
         <div>
