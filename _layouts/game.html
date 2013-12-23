@@ -29,7 +29,7 @@
           <li><i class="fa fa-tag"></i>{{ page.tags | join: ', ' }}</li>
           <li><i class="fa fa-gamepad"></i><a href="{{ page.play }}">Play it</a></li>
           <li><i class="fa fa-github"></i><a href="{{ page.source }}">Get the source</a></li>
-          {{ if page.ludumdare != false }}
+          {{ if page.ludumdare != "" }}
             <li><i class="fa fa-twitter"></i>{{ page.ludumdare }}</li>
           {{ endif }}
         </ul>
