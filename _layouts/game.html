@@ -1,6 +1,50 @@
 ---
   layout: default
 ---
-<div class="game-container">
+<div id="game-container" class="row">
   <h2>{{ page.title }}</h2>
-</div>
+  <div class="span10">
+      <div id="game" class="pad-right">
+        <article>
+          {{ content }}
+        </article>
+        <div id="disqus_thread" name="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'amcd';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+    <div class="span2">
+      <div id="sidebar">
+        <a href="/">Go back</a>
+        <ul class="tags space-bottom space-top">
+          <li><i class="fa fa-comment"></i><a href="#disqus_thread"></a></li>
+        </ul>
+        <h3>Share</h3>
+        <div>
+          <ul class="social-sharing">
+            <li><div class="fb-like" data-href="http://www.andreasmcdermott.com{{ page.url }}" data-width="120" data-layout="box_count" data-show-faces="false" data-send="false"></div></li>
+            <li><div class="g-plusone" data-size="tall" data-href="{{ page.url }}"></div></li>
+            <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="andreasmcd84" data-count="vertical">Tweet</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var disqus_shortname = 'amcd';
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+  </script>
+  {% include social.ext %}
