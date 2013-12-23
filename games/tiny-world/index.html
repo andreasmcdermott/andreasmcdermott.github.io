@@ -6,3 +6,33 @@ source: http://github.com/andreasmcdermott/tiny-world
 windows: http://www.andreasmcdermott.com/assets/tinyworld.zip
 ludumdare: http://www.ludumdare.com/compo/ludum-dare-23/?action=preview&uid=11705
 ---
+
+
+  This game was developed during 48 hours for the 23rd Ludum Dare game competition.
+            It is a shooter where the player has to switch between controlling a 
+            tower and a hot air balloon to protect the tiny city being pulled by the turtle.
+          </p>
+          <p>
+            This was my first entry in Ludum Dare since my university days and I'm overall happy with my entry. 
+            It was my first time using Lua and Löve2D and I really enjoyed working with both the engine and the language.
+            I also chose to use a component based game design instead of the more traditional structure using inheritance. 
+            This means that instead of creating game objects as hierarchical structures like:<br />
+            "Entity -> Enemy -> Zombie" (where the arrows symbolize inheritance) the game objects are composed of smaller
+            components that together define the final entity. Examples of components that I used in the game are:
+            <ul>
+              <li>Draw: An entity with this component will be drawn every frame.</li>
+              <li>Sound: An entity with this component will play a sound.</li>
+              <li>Position: An entity with this component will have a position on the screen.</li>
+              <li>Move: An entity with this component will move according to a specified vector every frame.</li>
+            </ul>
+            I was very happy with the ease I was able to add new types of game objects by combining existing components.
+          </p>
+          <p>
+            All code and content is created by me using the following:
+            <ul>
+              <li>Engine: <a href="https://love2d.org/">Löve2D</a></li>
+              <li>Code: Lua, written in <a href="http://www.sublimetext.com/2">Sublime Text 2</a></li>
+              <li>Graphics: <a href="http://www.pickleeditor.com/">Pickle</a></li>
+              <li>Sound FX: <a href="http://www.bfxr.net/">Bfxr</a></li>
+            </ul>
+          </p>
