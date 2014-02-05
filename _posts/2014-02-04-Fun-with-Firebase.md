@@ -4,7 +4,7 @@
   categories: [ Web ]
   tags: [ js, firebase ]
 ---
-I've been playing around with [http://www.firebase.com](Firebase) the last couple of weeks. 
+I've been playing around with [Firebase](http://www.firebase.com) the last couple of weeks. 
 They offer a hosted document database service that allows for real time (or almost at least) syncing of data very easily.
 
 This makes it perfect for chats and similar. I'm currently experimenting with two different projects using their service.
