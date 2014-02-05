@@ -1,4 +1,4 @@
-html { background-color: #595959; font-size: 14px; line-height: 18px; font-family: 'Open Sans', Arial, sans-serif; color: #f5f5f5; }
+html { background-color: #595959; font-size: 14px; line-height: 150%; font-family: 'Open Sans', Arial, sans-serif; color: #f5f5f5; }
 h1 { font-family: 'Montserrat', Arial, sans-serif; font-weight: bold; font-size: 3.8em; color: #ADD679; text-transform: uppercase; padding: 0.1em 0 0 0; }
 h1:first-letter, .capital { font-size: 1.2em; }
 h2, 
