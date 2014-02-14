@@ -1,5 +1,6 @@
 /* monokai syntax highlighting */
 .highlight pre, .highlight table { background-color: #3F3F3F; border: 1px dotted #f5f5f5; padding: 10px; white-space: pre; word-wrap: normal; overflow: auto; font-size: 1em; color: #f5f5f5; }
+.highlight span { line-height: 120%; }
 .highlight .hll { background-color:#49483e !important; }
 .highlight .err { color:#960050 !important;background-color:#f5f5f5 !important; }
 .highlight .c,.highlight .cm,.highlight .cp,.highlight .c1,.highlight .cs { color:#75715e !important; }
