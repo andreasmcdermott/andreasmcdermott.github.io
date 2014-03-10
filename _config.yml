@@ -5,9 +5,9 @@ permalink: pretty
 paginate: 10
 paginate_path: /page:num
 prose:
-  rooturl: "_posts"
-  siteurl: "http://andreasmcdermott.com/"
-  media: "media"
+  rooturl: '_posts'
+  siteurl: 'http://andreasmcdermott.com/'
+  media: 'media'
   metadata: 
     _posts: 
       - name: "layout"
