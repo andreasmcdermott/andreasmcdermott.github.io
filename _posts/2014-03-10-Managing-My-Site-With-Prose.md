@@ -17,3 +17,6 @@ My site is hosted on Github Pages and the blog posts are written in Markdown. Us
 In the past it has happened that I've used Github's online editor to correct mistakes in a post or to create a new post. Now I have found a better way! [Prose](http://prose.io) is an online content management tool with nice features for Jekyll blogs, like template when creating a new post and a toolbar (perfect for someone like me who doesn't write enough Markdown to remember all the details). And it is very easy to get started: just sign in with your Github account and all your repositories are right there. 
 
 I haven't used it much yet, but so far I can defintely recommend it!
+
+![Prose](/../assets/using-prose.png)
+
