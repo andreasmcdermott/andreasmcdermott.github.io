@@ -5,23 +5,23 @@ permalink: pretty
 paginate: 10
 paginate_path: /page:num
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://andreasmcdermott.com/'
-  media: 'media'
+  rooturl: "_posts"
+  siteurl: "http://andreasmcdermott.com/"
+  media: "media"
   metadata: 
     _posts: 
-      - name: 'layout'
+      - name: "layout"
         field:
-          element: 'hidden'
-          value: 'post'
-      - name: 'category'
+          element: "hidden"
+          value: "post"
+      - name: "category"
        	field:
-          element: 'select'
-          label: 'Category'
+          element: "select"
+          label: "Category"
           options: 
-            - name: 'Web'
-              value: 'web'
-            - name: 'Games'
-              value: 'games'
-            - name: 'Website'
-              value: 'website'
+            - name: "Web"
+              value: "web"
+            - name: "Games"
+              value: "games"
+            - name: "Website"
+              value: "website"
