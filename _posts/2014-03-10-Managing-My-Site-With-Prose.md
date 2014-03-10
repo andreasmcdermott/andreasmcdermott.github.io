@@ -2,7 +2,7 @@
 layout: post
 title: Managing my site with Prose
 categories: 
-  - Website
+  - website
 tags: 
   - github
   - jekyll
