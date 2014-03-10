@@ -2,7 +2,7 @@
 layout: post
 title: Email verification with Firebase
 categories: 
-  - Web
+  - web
 tags: 
   - js
   - firebase
