@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Fun with Firebase
-  categories: [ Web ]
+  categories: [ web ]
   tags: [ js, firebase ]
 ---
 I've been playing around with [Firebase](http://www.firebase.com) the last couple of weeks. 
