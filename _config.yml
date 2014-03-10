@@ -15,7 +15,7 @@ prose:
           element: "hidden"
           value: "post"
       - name: "category"
-       	field:
+        field:
           element: "select"
           label: "Category"
           options: 
