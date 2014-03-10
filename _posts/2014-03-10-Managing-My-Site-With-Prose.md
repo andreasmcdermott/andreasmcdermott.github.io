@@ -24,7 +24,7 @@ And it is very easy to get started: just sign in with your Github account and al
 
 I haven't used it much yet, but so far I can defintely recommend it!
 
-![](/assets/using-prose.PNG)
+![/assets/using-prose.PNG](/assets/using-prose.PNG)
 
 **Update**
 
