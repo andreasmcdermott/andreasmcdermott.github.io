@@ -24,6 +24,7 @@ And it is very easy to get started: just sign in with your Github account and al
 
 I haven't used it much yet, but so far I can defintely recommend it!
 
+
 **Update**
 
 I have stumbled upon an issue with creating new posts using Prose. When trying to save the post it fails and the whole post is lost. I will continue using prose anyway, but until I know they have a fix for it I will always copy my content before saving. 
