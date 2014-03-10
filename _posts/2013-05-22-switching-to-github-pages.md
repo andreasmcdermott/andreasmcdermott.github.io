@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Switching to GitHub pages
-  categories: [ Website ]
+  categories: [ website ]
   tags: [ github, jekyll ]
 ---
 This is pretty cool indeed! My website is now up and running on GitHub pages.
