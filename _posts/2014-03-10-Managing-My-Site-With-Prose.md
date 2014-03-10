@@ -28,4 +28,4 @@ I haven't used it much yet, but so far I can defintely recommend it!
 
 I have stumbled upon an issue with creating new posts using Prose. When trying to save the post it fails and the whole post is lost. I will continue using prose anyway, but until I know they have a fix for it I will always copy my content before saving. 
 
-![](/assets/using-prose.PNG)
+![using-prose.png](/assets/using-prose.png)
