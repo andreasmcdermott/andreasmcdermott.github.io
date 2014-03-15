@@ -5,7 +5,7 @@ categories: web
 tags: 
   - firebase
   - emberjs
-  - Firelists
+  - firelists
 ---
 
 After playing with [AngularJs](http://angularjs.org) for some time I decided I wanted to try [EmberJs](http://emberjs.com) as well.
